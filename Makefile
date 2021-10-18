@@ -1,10 +1,5 @@
 NAME = libftprintf.a
-SRCS =	ft_putchar_fd.c \
-			ft_putchar_fd.c \
-			ft_putnbr_fd.c \
-			ft_putstr.c \
-			ft_strlen.c \
-			ft_toupper.c \
+SRCS =		ft_putstr.c \
 			ft_printf.c \
 			ft_print_c.c \
 			ft_print_d_and_u.c \
@@ -13,9 +8,6 @@ SRCS =	ft_putchar_fd.c \
 			ft_print_percent.c \
 			ft_print_s.c \
 			ft_print_x.c \
-			ft_calloc.c \
-			ft_bzero.c \
-			ft_memset.c \
 			ft_convert_dec_to_hexstr.c \
 
 OBJS = ${SRCS:.c=.o}
